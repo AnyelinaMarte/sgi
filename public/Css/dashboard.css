@@ -1,0 +1,29 @@
+/*Menu home*/
+.main-menuhome{
+    width: 20%;
+    height: 100vh;
+    margin-left: 5%;
+    background: #151e2b;
+    position: fixed;
+    top: 9.4%;
+}
+.main-menuhome li{
+    list-style: none;
+    margin-top:30px ;
+}
+.main-menuhome a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.main-menuhome a:hover{
+    font-size: 20px;
+}
+.linea{
+    background-color:rgba(0, 238, 255, 0.171);
+    width: 70%;
+    height: 1px;
+    margin-right: auto;
+}

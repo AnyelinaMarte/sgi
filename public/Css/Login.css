@@ -1,0 +1,149 @@
+body{
+    overflow-x: hidden;
+}
+.grid-login-1{
+    color: blue;
+}
+.grid-login-1 h3{
+    color: black;
+    text-align: center;
+}
+.grid-login-1 form{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-login-1 label{
+    font-weight: bold;
+}
+.grid-login-1 input{
+    width: 100%;
+    padding: 15px;
+    padding-left:15px ;
+    margin-top: 30px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.141);
+
+}
+.grid-login-1 input:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.329);
+
+}
+.grid-t-blue nav ul{
+    top: 20px;
+    right: 5%;
+    position: fixed;
+    display: flex;
+}
+.grid-t-blue nav li{
+    list-style: none;
+    border: 1px solid white;
+    border-color: transparent  white transparent;
+    margin-left: 40px;
+}
+.grid-t-blue h6{
+    font-size: 30px;
+    top: -40px;
+    right: 55%;
+    position: fixed;
+}
+.grid-t-blue nav a{
+    text-decoration: none;
+    color: white;
+    padding: 23px;
+
+
+}
+.grid-t-blue nav h1{
+    top: 20px;
+    right: 40%;
+    position: fixed;
+}
+.grid-login-1 button{
+    width: 90%;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #0016df;
+    text-align: center;
+    margin-left: 23px;
+    margin-right: auto;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: 0.1s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.452);
+
+}
+.grid-login-1 button:hover{
+    margin-left: 20px;
+    width: 91%;
+
+}
+.grid-login-1 h1{
+    margin-top: 100px;
+
+    text-align: center;
+}
+.grid-login{
+    display: grid;
+    grid-template-columns: 35% 1fr;
+}
+.registro-a{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(0, 255, 242);
+}
+.grid-login-2{
+    transition: 1s;
+    background-image: url('https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    animation: img-animation 15s infinite;
+    
+}
+.grid-t-blue{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #4b57c0be;
+}
+.grid-t-blue h1{
+    margin-top: 400px;
+
+}
+.grid-t-blue h1:before{
+    margin-left: 40px;
+    margin-top: 100px;
+    text-transform: uppercase;
+    content: "¿Que puedes hacer con nosotros?";
+    animation: title-animation 15s infinite;
+    transition: 1s;
+}
+.grid-t-blue p{
+    margin-left: 60px;
+    margin-right: 500px;
+
+}
+.grid-t-blue p:before{
+    content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita dolore, facere tempora fuga saepe, ea ducimus deserunt autem pariatur accusantium ipsum quidem magnam, perferendis beatae consequatur at cum accusamus quis?";
+
+}
+@keyframes title-animation{
+    25%{ content: "¿Que lograras?";}
+    50%{content: "¿Que puedes hacer con nosotros?";}
+    75%{content: "Administra tu empresa";}
+
+}
+
+@keyframes img-animation{
+    25%{ background-image: url('https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');}
+    50%{background-image: url('https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+    75%{background-image: url('https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+
+}

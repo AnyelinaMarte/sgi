@@ -6,9 +6,12 @@
 
         <title>Laravel</title>
             <link rel="stylesheet" href="{{ asset('Css/Normalize.css') }}">
-            <link rel="stylesheet" href="{{ asset('Css/app.css') }}">
+            <link rel="stylesheet" href="{{ asset('Css/NavBar.css') }}">
+            <link rel="stylesheet" href="{{ asset('Css/dashboard.css') }}">
+            <!-- <link rel="stylesheet" href="{{ asset('Css/Login.css') }}"> -->
     </head>
     <body>
-         <h1>Hola</h1>
+        <x-dashboard/>
+        <x-menuhome/>
     </body>
 </html>
