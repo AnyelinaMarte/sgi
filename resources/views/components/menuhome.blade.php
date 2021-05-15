@@ -1,15 +1,10 @@
 <div class="main-menuhome">
     <ul>
         <li><a href="#">Inventario</a></li>
-        <div class="linea"></div>
-        <li><a href="#">Categoria</a></li>
-        <div class="linea"></div>
-        <li><a href="#">Proveedor</a></li>
-        <div class="linea"></div>
-        <li><a href="#">Producto</a></li>
-        <div class="linea"></div>
+        <li> <a href="#">Categoria</a></li>
+        <li><a href="#"><img src="{{asset('Img/proveedor.svg')}}"/>Proveedor</a></li>
+        <li><a href="#"><img src="{{asset('Img/producto.svg')}}"/>Producto</a></li>
         <li><a href="#">Stock</a></li>
-        <div class="linea"></div>
 
     </ul>
 </div>
